@@ -1,0 +1,35 @@
+GOOD:Excellent Service!
+GOOD:You could improve some parts
+GOOD:I was happy with the service received
+GOOD:100% Liked it.
+GOOD:My personal recommendation for those who need to use something like it
+GOOD:There is no need for other service like that
+GOOD:Found some hiccups here and there but otherwise good
+GOOD:My family recommended it to me
+GOOD:It's OK
+GOOD:I can't think of other alternatives
+GOOD:Soo much to improve still
+GOOD:Not bad
+GOOD:We prefer it to their competitors
+GOOD:I have so much to say about this service, but nothing that I can't think at the moment
+GOOD:Other options in the market are good too
+GOOD:Way too overpriced, but good service
+GOOD:I hate that I like it
+GOOD:Mmmm, not bad at all.
+GOOD:Look no further for other options
+GOOD:Listen to your customers for improvements
+BAD:I don't recommend it
+BAD:There are better alternatives out there
+BAD:Terrible service
+BAD:Cannot recommend this service
+BAD:It has potential, but at the moment its terrible
+BAD:I want my money back
+BAD:Not good. Not good at all
+BAD:Needs more time to be ready. Feels like it should not be public yet.
+BAD:Absolutely terrible
+BAD:There are some good parts but ultimately they're brought down by the rest
+BAD:Don't get this
+BAD:Abysmal experience
+BAD:Too overpriced for what little value is offered
+BAD:Why did I get this? It is terrible
+BAD:It sucks

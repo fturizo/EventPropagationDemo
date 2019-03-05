@@ -1,0 +1,61 @@
+@import 'https://code.highcharts.com/css/highcharts.css';
+
+body {
+    background-color: #002C3E;
+}
+
+div#container {
+    min-width: 310px;
+    height: 400px;
+    margin: 0 auto
+}
+
+.highcharts-background {
+    fill: #0D3647;
+}
+
+.highcharts-plot-background {
+    fill: #0D3647;
+}
+
+.highcharts-title {
+    fill: #FFFFFF;
+}
+
+.highcharts-line {
+    fill: #FFFFFF;
+}
+
+.highcharts-axis-title {
+    fill: #FFFFFF;
+    stroke: #FFFFFF;
+}
+
+.highcharts-color-0 {
+    fill: #F0981B;
+    stroke: #F0981B;
+}
+
+.highcharts-graph {
+    stroke: #F0981B;
+}
+
+div#copyright {
+    height: 256px;
+    width:  auto;
+    margin: 50px;
+    text-align: center;
+}
+
+div#payara-logo {
+    width: inherit;
+    height: auto;
+}
+
+div#copyright p {
+    color: #FFFFFF;
+}
+
+* {
+    user-select: none
+}
