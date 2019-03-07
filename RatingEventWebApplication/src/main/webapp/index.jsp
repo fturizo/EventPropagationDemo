@@ -70,7 +70,7 @@
                             if(this.point.messages){
                                 return '<b>Current Score:</b> '+ this.point.y +'<br/>' +
                                        '<b>Opinions:</b><br/>' +
-                                       this.point.messages.map(message => '- ' + message + '<br/>').join('');
+                                       this.point.messages.map(message => '- ' + message.contents + '[' + message.instance + ']' + '<br/>').join('');
                             } else{
                                 return '<b>No scores</b>';
                             }
@@ -118,17 +118,16 @@
 
                     var existingPoint = series.data.find(point => point.options.x === time);
                     if (existingPoint && existingPoint !== null) {
-                        //compute correct average
                         existingPoint.options.total += rating.score;
                         existingPoint.options.count++;
                         existingPoint.update(existingPoint.options.total / existingPoint.options.count, false /*redraw*/, true /*animate*/);
                         if(rating.message){
-                            existingPoint.options.messages.push(rating.message);
+                            existingPoint.options.messages.push({contents: rating.message, instance: rating.instance});
                         }                        
                     } else {
                         var messages = [];
                         if(rating.message){
-                            messages.push(rating.message);
+                            messages.push({contents: rating.message, instance: rating.instance});
                         }
                         series.addPoint({x: time, y: rating.score, messages: messages, total: rating.score, count: 1}, true /*redraw*/, true /*shift*/, true /*animate*/);
                     }

@@ -4,18 +4,15 @@ import fish.payara.demos.eventpropagation.common.InstanceEventData;
 import fish.payara.demos.eventpropagation.common.RatingData;
 import fish.payara.micro.cdi.Inbound;
 import java.io.IOException;
-import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.annotation.PostConstruct;
 import javax.enterprise.context.ApplicationScoped;
-import javax.enterprise.context.Initialized;
 import javax.enterprise.event.Observes;
 import javax.json.Json;
 import javax.json.JsonObject;
-import javax.json.bind.JsonbBuilder;
 import javax.websocket.EncodeException;
 import javax.websocket.Session;
 
